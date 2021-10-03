@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>FORM PENDAFTARAN PPDB</title>
+        <meta charset="utf-8">
+        <meta name="viewpoint" content="width=device-width, initial-scale=1">
+        <style>
+            *{
+                box-sizing: border-box;
+            }
+            body{
+                margin: 0;
+            }
+            .header{
+                background-image: url(file/Slider-SMANSABA.jpg);
+                padding: 150px;
+                text-align: center;
+            }
+            .formulir{
+                color: #FFFFFF;
+                font-size: 25px;
+                padding-block: 100px;
+                text-align: center;
+            }
+            .table{
+                padding: 20px;
+                text-decoration: center;
+                color: #FFFFFF;
+                text-align: center;
+
+            }
+        </style>
+    </head>
+
+    <body background="file/green-abstract-halftone-background_1409-898.jpg">
+        <div class="header">
+            <h2><font face="Bodoni MT Black" size="10px" color="#F5EEF0">SELAMAT DATANG CALON SISWA-SISWI DI SMA N 1 BANGSRI</font></h2>
+            <p><font face="Lucida Calligraphy" size="8px" color="#C1B7BA">PPDB ONLINE SMANSABA</font></p>
+        </div>
+        <p><center><font face="Times New Roman" color="#FBF6F8">
+            SMA N 1 BANGSRI MERUPAKAN Sekolah Negeri yang berada di Kabupaten Jepara.<br>
+            SMA N 1 Bangsri memiliki banyak segudang prestasi, baik akademik, maupun non akademik.<br>
+            Untuk calon siswa siswi baru bisa mendaftarkan diri dengan cara mengisi formulir pendaftaran berikut ini.
+        </font></center></p>
+        <div class="formulir">
+            <form action="form.php" method="POST" name="fcontoh">
+                <h4>Info Pendaftaran</h4>
+                <div class="table"><center>
+                    <table>
+                        <tr>
+                            <td><label for="fnisn">NISN : </label></td>
+                            <td><input type="number" id="fnisn" name="fnisn"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="fasal">ASAL SEKOLAH : </label></td>
+                            <td><input type="text" id="fasal" name="fasal"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="fthlulus">TAHUN LULUS : </label></td>
+                            <td><input type="number" id="fthlulus" name="fthlulus"></td>
+                        </tr>
+                    </table>
+                </center></div>
+                <h4>Data Calon Peserta</h4>
+                <div class="table"><center>
+                    <table>
+                        <tr>
+                            <td><label for="fnama">NAMA LENGKAP : </label></td>
+                            <td><input type="text" id="fnama" name="fnama"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="fnik">NIK : </label></td>
+                            <td><input type="number" id="fnik" name="fnik"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="fttl">TEMPAT, TANGGAL LAHIR : </label></td>
+                            <td><input type="text" id="fttl" name="fttl"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="fgender">JENIS KELAMIN : </label></td>
+                            <td><select id="fgender" name="fgender">
+                                <option value="">:::::Pilih Jenis Kelamin:::::</option>
+                                <option value="Laki-laki">Laki-laki</option>
+                                <option value="Perempuan">Perempuan</option>
+                            </select></td>
+                        </tr>
+                        <tr>
+                            <td><label for="fagama">AGAMA : </label></td>
+                            <td><select id="fagama" name="fagama">
+                                <option value="">:::::AGAMA:::::</option>
+                                <option value="Islam">Islam</option>
+                                <option value="Kristen">Kristen</option>
+                                <option value="Katholik">Katholik</option>
+                                <option value="Hindu">Hindu</option>
+                                <option value="Budha">Budha</option>
+                                <option value="Khonghucu">Khonghucu</option>
+                            </select></td>
+                        </tr>
+                        <tr>
+                            <td><label for="falamat">ALAMAT : </label></td>
+                            <td><input type="text" id="falamat" name="falamat"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="fkecamatan">KECAMATAN : </label></td>
+                            <td><input type="text" id="fkecamatan" name="fkecamatan"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="fkab">KABUPATEN : </label></td>
+                            <td><input type="text" id="fkab" name="fkab"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="fprov">PROVINSI : </label></td>
+                            <td><input type="text" id="fprov" name="fprov"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="femail">EMAIL : </label></td>
+                            <td><input type="email" id="femail" name="femail"></td>
+                        </tr>
+                    </table>
+                </center></div>
+                <h4>Data Orang Tua</h4>
+                <div class="table"><center>
+                    <table>
+                        <tr>
+                            <td><label for="fkk">NO. KARTU KELUARGA : </label></td>
+                            <td><input type="number" id="fkk" name="fkk"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="fayah">NAMA AYAH KANDUNG : </label></td>
+                            <td><input type="text" id="fayah" name="fayah"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="fagama">AGAMA AYAH : </label></td>
+                            <td><select id="fagama" name="fagama">
+                                <option value="">:::::AGAMA:::::</option>
+                                <option value="Islam">Islam</option>
+                                <option value="Kristen">Kristen</option>
+                                <option value="Katholik">Katholik</option>
+                                <option value="Hindu">Hindu</option>
+                                <option value="Budha">Budha</option>
+                                <option value="Khonghucu">Khonghucu</option>
+                            </select></td>
+                        </tr>
+                        <tr>
+                            <td><label for="fpenter">PENDIDIKAN TERKAHIR AYAH: </label></td>
+                            <td><input type="text" id="fpenter" name="fpenter"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="fkerja">PEKERJAAN AYAH : </label></td>
+                            <td><input type="text" id="fkerja" name="fkerja"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="fibu">NAMA IBU KANDUNG : </label></td>
+                            <td><input type="text" id="fibu" name="fibu"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="fagama">AGAMA IBU : </label></td>
+                            <td><select id="fagama" name="fagama">
+                                <option value="">:::::AGAMA:::::</option>
+                                <option value="Islam">Islam</option>
+                                <option value="Kristen">Kristen</option>
+                                <option value="Katholik">Katholik</option>
+                                <option value="Hindu">Hindu</option>
+                                <option value="Budha">Budha</option>
+                                <option value="Khonghucu">Khonghucu</option>
+                            </select></td>
+                        </tr>
+                        <tr>
+                            <td><label for="fpenter">PENDIDIKAN TERAKHIR IBU : </label></td>
+                            <td><input type="text" id="fpenter" name="fpenter"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="fkerja">PEKERJAAN IBU : </label></td>
+                            <td><input type="text" id="fkerja" name="fkerja"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="falamat">ALAMAT ORANG TUA : </label></td>
+                            <td><input type="text" id="falamat" name="falamat"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="fkecamatan">KECAMATAN : </label></td>
+                            <td><input type="text" id="fkecamatan" name="fkecamatan"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="fkab">KABUPATEN : </label></td>
+                            <td><input type="text" id="fkab" name="fkab"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="fprov">PROVINSI : </label></td>
+                            <td><input type="text" id="fprov" name="fprov"></td>
+                        </tr>
+                    </table>
+                </center></div>
+                <h4>Data Wali</h4>
+                <div class="table"><center>
+                    <table>
+                        <tr>
+                            <td><label for="fwali">NAMA WALI : </label></td>
+                            <td><input type="text" id="fwali" name="fwali"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="fagama">AGAMA WALI: </label></td>
+                            <td><input type="text" id="fagama" name="fagama"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="fpenter">PENDIDIKAN TERKAHIR WALI: </label></td>
+                            <td><input type="text" id="fpenter" name="fpenter"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="fkerja">PEKERJAAN WALI : </label></td>
+                            <td><input type="text" id="fkerja" name="fkerja"></td>
+                        </tr>
+                        <tr>
+                            <td colspan="5" align="right"><input type="submit" name="fsubmit" value="Kirim/simpan"></td>
+                        </tr>
+                    </table>
+                </center></div>
+            </form>
+            <div class="icon" align="center">
+                <a class="icon" href="https://www.instagram.com/smanbangsri/"><img src="file/Ig.png" alt="" width="50px"></a>
+                <a class="icon" href="https://wa.me/6282326431110"><img src="file/walogo.png" alt="" width="65px"></a>
+                <a class="icon" href="https://www.facebook.com/smanegeri1bangsri/"><img src="file/Fb.png" alt="" width="50px"></a>
+            </div>
+        </div>
+    </body>
+</html>
