@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Perulangan Nested 2</title>
+    </head>
+
+    <body>
+        <h2>Berikut ini contoh perulangan Nested</h2>
+
+        <script>
+            var ulangi = confirm("Apa anda ingin sekali mengulang lagi?");
+            var counter = 0
+
+            while (ulangi){
+                counter++;
+                var bintang = "*".repeat(counter) + "<br>";
+                document.write(counter + ": " + bintang);
+                ulangi = confirm("Apakah anda ingin sekali mengulangi lagi?");
+            }
+        </script>
+    </body>
+</html>

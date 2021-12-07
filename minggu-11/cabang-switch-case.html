@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>percabangan switch/case</title>
+    </head>
+
+    <body>
+        <script>
+            var jawab = prompt("SILAHKAN ANDA PILIH ABJAD A SAMPAI E DAN AMBIL HADIAH ANDA");
+            var hadiah = "";
+
+            switch(jawab){
+                case "A":
+                    hadiah = "Mobil";
+                    break;
+                case "B":
+                    hadiah = "Motor";
+                    break;
+                case "C":
+                    hadiah = "Smartphone";
+                    break;
+                case "D":
+                    hadiah = "TV";
+                    break;
+                case "E":
+                    hadiah = "Sepeda BMX";
+                    break
+                default:
+                    document.write("<p>Duhh, anda salah pilih nih</p>");
+            }
+
+            if(hadiah === ""){
+                document.write("<p>Anda belum beruntung</p>");
+            }
+            else{
+                document.write("<h2>Selamat anda mendapatkan " + hadiah + "</h2>");
+            }
+        </script>
+    </body>
+</html>
