@@ -1,0 +1,58 @@
+[
+    {
+        "nim":"A11.2020.12431",
+        "nama":"Dimas Wahyu Ardhana",
+        "alamat":"Jepara",
+        "jurusan":"Teknik Informatika",
+        "MK":[
+            {
+                "mk_kode":"101",
+                "nama_mk":"Matriks Dan Ruang Vektor"
+            },
+            {
+                "mk_kode":"102",
+                "nama_mk":"Struktur Data"
+            },
+            {
+                "mk_kode":"103",
+                "nama_mk":"Jaringan Komputer"
+            },
+            {
+                "mk_kode":"104",
+                "nama_mk":"Pemrograman Berbasis Web"
+            },
+            {
+                "mk_kode":"105",
+                "nama_mk":"Pemrograman Perangkat Bergerak"
+            }
+        ]
+    },
+    {
+        "nim":"B12.2022.12431",
+        "nama":"Kalista Kusnadea",
+        "alamat":"Jepara",
+        "jurusan":"Akuntansi",
+        "MK":[
+            {
+                "mk_kode":"201",
+                "nama_mk":"Perbankan"
+            },
+            {
+                "mk_kode":"202",
+                "nama_mk":"Simpan Pinjam"
+            },
+            {
+                "mk_kode":"203",
+                "nama_mk":"Keuangan Aktif"
+            },
+            {
+                "mk_kode":"204",
+                "nama_mk":"Perhutangan"
+            },
+            {
+                "mk_kode":"205",
+                "nama_mk":"Etika Profesi"
+            }
+        ]
+    }
+]
